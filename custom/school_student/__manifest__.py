@@ -1,0 +1,20 @@
+{
+    'name': 'School',
+    'version': '1.1',
+    'author': 'Thiago Francelino',
+    'summary': '',
+    'sequence': '1',
+    'description': 'student school',
+    'category': 'School',
+    'website': 'https://www.google.com/',
+    'images': [],
+    'depends': ['base', 'school'],
+    'data': [
+        "security/ir.model.access.csv",
+        "views/school_student_view.xml",
+        "views/school_profile.xml",
+    ],
+    'demo': [],
+    'qweb': [],
+    'external_dependencies': '',
+}
